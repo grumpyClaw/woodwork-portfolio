@@ -1,48 +1,120 @@
-Mark Gibson Woodwork
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | Mark Gibson Woodwork</title>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div class="logo">
+                <h1>Mark Gibson Woodwork</h1>
+                <span class="tagline">Handcrafted Timber Furniture</span>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="gallery.html" class="active">Gallery</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-Handcrafted Timber Furniture
-Home
-Gallery
-About
-Contact
-Gallery
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h2>Gallery</h2>
+                <p class="lead">A collection of handcrafted pieces, each made to order for individual clients</p>
+            </div>
+        </section>
 
-A collection of handcrafted pieces, each made to order for individual clients
+        <section class="featured-work">
+            <div class="container">
+                <div class="gallery-filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="seating">Seating</button>
+                    <button class="filter-btn" data-filter="tables">Tables</button>
+                    <button class="filter-btn" data-filter="storage">Storage</button>
+                </div>
 
-All  Seating  Tables  Storage
-Dark walnut bench with minimalist chunky legs
-Walnut Bench
+                <div class="gallery-grid large">
+                    <div class="gallery-item" data-category="seating">
+                        <img src="images/bench-walnut.jpg" alt="Dark walnut bench with minimalist chunky legs">
+                        <div class="gallery-caption">
+                            <h3>Walnut Bench</h3>
+                            <p>Dark hardwood with contemporary chunky joinery and visible metal accents</p>
+                        </div>
+                    </div>
 
-Dark hardwood with contemporary chunky joinery and visible metal accents
+                    <div class="gallery-item" data-category="tables">
+                        <img src="images/nightstand-oak.jpg" alt="Light oak nightstand with integrated drawer handle">
+                        <div class="gallery-caption">
+                            <h3>Oak Nightstand</h3>
+                            <p>Scandinavian-inspired bedside table with seamless integrated handle</p>
+                        </div>
+                    </div>
 
-Light oak nightstand with integrated drawer handle
-Oak Nightstand
+                    <div class="gallery-item" data-category="seating">
+                        <img src="images/bench-slatted.jpg" alt="Light Scandinavian slat bench">
+                        <div class="gallery-caption">
+                            <h3>Slat Bench</h3>
+                            <p>Mid-century modern seating in honey-toned hardwood</p>
+                        </div>
+                    </div>
 
-Scandinavian-inspired bedside table with seamless integrated handle
+                    <div class="gallery-item" data-category="storage">
+                        <img src="images/planter-box.jpg" alt="Tapered wooden planter box with frame-and-panel construction">
+                        <div class="gallery-caption">
+                            <h3>Planter Box</h3>
+                            <p>Arts &amp; Crafts style with tapered form and waterproof liner</p>
+                        </div>
+                    </div>
 
-Light Scandinavian slat bench
-Slat Bench
+                    <div class="gallery-item" data-category="seating">
+                        <img src="images/armchair-xframe.jpg" alt="Wooden armchair with X-frame and white cushions">
+                        <div class="gallery-caption">
+                            <h3>X-Frame Armchair</h3>
+                            <p>Architectural timber frame with upholstered cushions</p>
+                        </div>
+                    </div>
 
-Mid-century modern seating in honey-toned hardwood
+                    <div class="gallery-item" data-category="seating">
+                        <img src="images/bench-honey.jpg" alt="Honey-amber bench with knotty pine grain and two-plank top">
+                        <div class="gallery-caption">
+                            <h3>Rustic Bench</h3>
+                            <p>Knotty pine construction with geometric leg assemblies</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
-Tapered wooden planter box with frame-and-panel construction
-Planter Box
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h4>Mark Gibson Woodwork</h4>
+                    <p>Handcrafted timber furniture from Queensland, Australia</p>
+                </div>
+                <div class="footer-links">
+                    <a href="index.html">Home</a>
+                    <a href="gallery.html">Gallery</a>
+                    <a href="about.html">About</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Mark Gibson Woodwork. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
 
-Arts & Crafts style with tapered form and waterproof liner
-
-Wooden armchair with X-frame and white cushions
-X-Frame Armchair
-
-Architectural timber frame with upholstered cushions
-
-Honey-amber bench with knotty pine grain and two-plank top
-Rustic Bench
-
-Knotty pine construction with geometric leg assemblies
-
-Mark Gibson Woodwork
-
-Handcrafted timber furniture from Queensland, Australia
-
-Home Gallery About Contact
-© 2026 Mark Gibson Woodwork. All rights reserved.
+    <script src="js/gallery.js"></script>
+</body>
+</html>
